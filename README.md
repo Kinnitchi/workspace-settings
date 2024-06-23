@@ -1,15 +1,6 @@
 # Workspace settings
 
-
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
-
-<img src="exemplo-image.png" alt="exemplo imagem">
-
->The project focuses on my personal environment configurations. The aim is to establish a standardized setup that optimizes my productivity and efficiency across various tasks. This involves setting up development tools, and organizing my workspace to best suit my workflow.
+> The project focuses on my personal environment configurations. The aim is to establish a standardized setup that optimizes my productivity and efficiency across various tasks. This involves setting up development tools, and organizing my workspace to best suit my workflow.
 
 ## 💻 Prerequisites
 
@@ -19,8 +10,8 @@
 
 ## 🚀 Settings in terminal app
 
-* Comandos para instalar os modulos utilizados<br>
-* Fonte do terminal "Hack Nerd Font"
+* Commands to install the modules used<br>
+* Terminal font: "Hack Nerd Font"
 * Commands in terminal
 ```
 winget install JanDeDobbeleer.OhMyPosh -s winget
@@ -30,19 +21,26 @@ Install-Module -Name Get-ChildItemColor -Scope CurrentUser
 Install-Module -Name Terminal-Icons -Scope CurrentUser
 Install-Module -Name DockerCompletion -Scope CurrentUser
 ```
+
 ## >_ Command
 > code . $PROFILE
-[$PROFILE](src/settings/terminal/$PROFILE.md)
+
+[$PROFILE](src/settings/terminal/$PROFILE.md)<br>
+[Theme oh-my-posh](src/theme/kinnitchi.omp.json)
+
+<img src="src/images/terminal-app.png" alt="Terminal">
 
 ## { } Settings.json
 [Terminal Settings](src/settings/terminal/terminal-settings.json)
 
 ## 🖥️ VSCode Extensions
+
+<img src="src/images/VSCode.png" alt="VSCode">
+
 [Extensions](src/settings/vscode/extension.md)
 
 ## 🖥️ VSCode settings
 [VSCode Settings](src/settings/vscode/settings.json)
-
 
 ##  Creator
 <table>
