@@ -1,0 +1,201 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "extensions.ignoreRecommendations": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "jsonc",
+    "*.css": "css"
+  },
+  "editor.parameterHints.enabled": true,
+  "editor.renderLineHighlight": "all",
+  "material-icon-theme.activeIconPack": "nest",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": true,
+  "typescript.suggest.autoImports": true,
+  "workbench.editor.labelFormat": "short",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "gitlens.codeLens.authors.enabled": true,
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    ".vscode": true
+  },
+  "gitlens.codeLens.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "update.mode": "manual",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.tree.indent": 8,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#0096c7",
+  "material-icon-theme.files.color": "#fff",
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.opacity": 1,
+  "material-icon-theme.folders.associations": {
+    "datasets": "database",
+    "forms": "Docs",
+    "wcm": "Src",
+    "workflow": "Other",
+    "webapp": "App",
+    ".resources": "Resource",
+    "diagrams": "Proto",
+    "WEB-INF": "Config"
+  },
+  "editor.linkedEditing": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.wordWrap": "on",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.untitled.labelFormat": "name",
+  "editor.largeFileOptimizations": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "liveServer.settings.host": "localhost",
+  "window.commandCenter": false,
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.sideBar.location": "right",
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
+  "editor.defaultFormatter": "HookyQR.beautify",
+  "workbench.editor.empty.hint": "hidden",
+  "editor.semanticHighlighting.enabled": true,
+  "update.showReleaseNotes": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.scrollbar.vertical": "visible",
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Legendary Dark",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.terminal.toggleTerminal"
+  ],
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.rightClickBehavior": "default",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.ignoreProcessNames": [],
+  "workbench.colorCustomizations": {
+    "list.inactiveSelectionForeground": "#8BE9FE",
+    "terminal.ansiBlack": "#272932",
+    "terminal.black": "#000000",
+    "terminal.blue": "#0208CB",
+    "terminal.brightBlack": "#686868",
+    "terminal.brightBlue": "#3C40CB",
+    "terminal.brightCyan": "#88FFFE",
+    "terminal.brightGreen": "#75FF88",
+    "terminal.brightPurple": "#F15BE5",
+    "terminal.brightRed": "#FF5A5A",
+    "terminal.brightWhite": "#FFFFFF",
+    "terminal.brightYellow": "#FFFD96",
+    "terminal.cursorColor": "#C7C7C7",
+    "terminal.cyan": "#00FFFC",
+    "terminal.foreground": "#00FFFC",
+    "terminal.green": "#5FFA74",
+    "terminal.name": "Neon",
+    "terminal.purple": "#F924E7",
+    "terminal.red": "#FF3045",
+    "terminal.selectionBackground": "#0013FF",
+    "terminal.white": "#C7C7C7",
+    "terminal.yellow": "#FFFC7E",
+    "terminalCursor.background": "#FDF500",
+    "terminalCursor.foreground": "#FDF500"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.showExitAlert": true,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.cursorWidth": 2,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "debug.terminal.clearBeforeReusing": true,
+  "workbench.editor.enablePreview": false
+}
