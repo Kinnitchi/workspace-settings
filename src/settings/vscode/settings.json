@@ -14,8 +14,10 @@
   "files.associations": {
     ".env.*": "dotenv",
     ".prettierrc": "jsonc",
-    "*.css": "css"
+    "*.css": "css",
+    "*.log": "plaintext"
   },
+  "window.restoreWindows": "all",
   "editor.parameterHints.enabled": true,
   "editor.renderLineHighlight": "all",
   "material-icon-theme.activeIconPack": "nest",
@@ -34,7 +36,7 @@
   "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
-  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDragAndDrop": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -56,7 +58,6 @@
   },
   "gitlens.codeLens.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.minimap.enabled": false,
   "update.mode": "manual",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -67,7 +68,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.tree.indent": 8,
+  "workbench.tree.indent": 12,
   "editor.mouseWheelZoom": true,
   "editor.formatOnSave": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -103,11 +104,9 @@
   "editor.largeFileOptimizations": true,
   "workbench.productIconTheme": "fluent-icons",
   "liveServer.settings.host": "localhost",
-  "window.commandCenter": false,
   "git.openRepositoryInParentFolders": "always",
   "workbench.sideBar.location": "right",
   "window.titleBarStyle": "custom",
-  "window.menuBarVisibility": "compact",
   "editor.defaultFormatter": "HookyQR.beautify",
   "workbench.editor.empty.hint": "hidden",
   "editor.semanticHighlighting.enabled": true,
@@ -125,12 +124,10 @@
   "explorer.fileNesting.enabled": true,
   "editor.hideCursorInOverviewRuler": true,
   "workbench.statusBar.visible": true,
-  "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Legendary Dark",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.commandsToSkipShell": [
     "workbench.action.terminal.toggleTerminal"
   ],
@@ -141,32 +138,7 @@
   "terminal.integrated.env.windows": {},
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.ignoreProcessNames": [],
-  "workbench.colorCustomizations": {
-    "list.inactiveSelectionForeground": "#8BE9FE",
-    "terminal.ansiBlack": "#272932",
-    "terminal.black": "#000000",
-    "terminal.blue": "#0208CB",
-    "terminal.brightBlack": "#686868",
-    "terminal.brightBlue": "#3C40CB",
-    "terminal.brightCyan": "#88FFFE",
-    "terminal.brightGreen": "#75FF88",
-    "terminal.brightPurple": "#F15BE5",
-    "terminal.brightRed": "#FF5A5A",
-    "terminal.brightWhite": "#FFFFFF",
-    "terminal.brightYellow": "#FFFD96",
-    "terminal.cursorColor": "#C7C7C7",
-    "terminal.cyan": "#00FFFC",
-    "terminal.foreground": "#00FFFC",
-    "terminal.green": "#5FFA74",
-    "terminal.name": "Neon",
-    "terminal.purple": "#F924E7",
-    "terminal.red": "#FF3045",
-    "terminal.selectionBackground": "#0013FF",
-    "terminal.white": "#C7C7C7",
-    "terminal.yellow": "#FFFC7E",
-    "terminalCursor.background": "#FDF500",
-    "terminalCursor.foreground": "#FDF500"
-  },
+  "workbench.colorCustomizations": {},
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -195,7 +167,24 @@
     "editor.formatOnSave": true
   },
   "terminal.integrated.cursorWidth": 2,
-  "github.copilot.editor.enableAutoCompletions": true,
   "debug.terminal.clearBeforeReusing": true,
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "files.autoSave": "onFocusChange",
+  "editor.cursorBlinking": "expand",
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.selectedCompletionModel": "",
+  "window.commandCenter": false,
+  "workbench.editorLargeFileConfirmation": 4000,
+  "workbench.colorTheme": "Neon dark theme",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  }
 }
